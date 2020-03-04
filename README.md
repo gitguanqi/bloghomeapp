@@ -42,7 +42,7 @@ Here you can download the [installation package](./app/marker.apk)
 
 ```sh
 // Download the project repository
-$ git clone https://github.com/gitguanqi/bloghomeapp.git
+$ git clone https://github.com/gitguanqi/markerapp.git
 // or
 $ git clone git@github.com:gitguanqi/bloghomeapp.git
 ```
