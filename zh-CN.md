@@ -44,7 +44,7 @@ Marker App主要有以下功能：
 // 下载项目仓库
 $ git clone https://github.com/gitguanqi/markerapp.git
 // 或者
-$ git clone git@github.com:gitguanqi/bloghomeapp.git
+$ git clone git@github.com:gitguanqi/markerapp.git
 ```
 
 + 导入到你的APICloudStudio编辑器
