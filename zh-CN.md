@@ -1,4 +1,4 @@
-## Marker App
+# Marker App
 
 这是一个基于原生H5和APICloud开发的一个笔记工具类的安卓软件。
 
@@ -40,7 +40,7 @@ Marker App主要有以下功能：
 
 + 下载仓库
 
-```
+```sh
 // 下载项目仓库
 $ git clone https://github.com/gitguanqi/bloghomeapp.git
 // 或者

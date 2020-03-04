@@ -1,4 +1,4 @@
-## Marker App
+# Marker App
 
 This is an Android software based on a note-based class developed by native H5 and APICloud.
 
@@ -40,7 +40,7 @@ Here you can download the [installation package](./app/marker.apk)
 
 + Download Warehouse
 
-```
+```sh
 // Download the project repository
 $ git clone https://github.com/gitguanqi/bloghomeapp.git
 // or
