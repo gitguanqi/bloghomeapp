@@ -1,26 +1,52 @@
 # Marker App
 
-这是一个基于原生H5和APICloud开发的一个笔记工具类的安卓软件。
+> 这是一个基于原生H5和APICloud开发的一个笔记工具类的安卓软件。
 
-## 文档说明
+[英文文档](README.md)
 
-+ [英文文档](README.md)
-+ [中文文档](zh-CN.md)
+## 目录
 
-## 项目环境
++ 安全
++ 背景
++ 安装
++ 用法
++ API
++ 贡献
++ 协议
 
-+ [APICloud平台](https://www.apicloud.com)
-+ [APICloudStudio编辑器](https://www.apicloud.com/devtools)
-+ [蓝叠模拟器](https://www.bluestacks.cn/)
-+ 真机WIFI测试
+## 安全
 
-## 项目简介
+本项目
 
-Marker App是一款笔记工具类的App,主要功能就是发布博客、展示博客，还有关注博主，评论点赞以及分享文章。
++ 采用[APICloud](https://www.apicloud.com)平台搭建而成，
++ 使用[APICloudStudio](https://www.apicloud.com/devtools)编辑器开发，
++ 预览使用[蓝叠模拟器](https://www.bluestacks.cn/)，
 
-## 项目功能
+主题采用自主设计。
 
-Marker App主要有以下功能：
+目前暂未发现程序安全问题，如有问题，请提[建议](https://github.com/gitguanqi/markerapp/issues/new)。
+
+## 背景
+
+这个仓库记录我这学习混合APP开发的一个小项目源码！
+
+## 安装
+
+```sh
+# clone
+git clone https://github.com/gitguanqi/markerapp.git markerapp
+cd markerapp
+```
+
++ 导入到你的APICloudStudio编辑器
+
++ 使用蓝叠模拟器进行真机同步查看
+
+## 用法
+
+编辑器编辑好后，进行同步云端，然后云端编译打包。
+
+本APP主要有以下功能可以使用：
 
 + 用户注册
 + 用户登录
@@ -30,37 +56,20 @@ Marker App主要有以下功能：
 + 评论、点赞和分享文章
 + 博主关注
 
-## 项目安装包
+项目安装包：
 
 本次只是编译了安卓部分，由于编译证书和步骤繁琐，因此iOS没有进行编译，敬请谅解。
 
 在这里可以下载[安装包](./app/marker.apk)
 
-## 项目演示
+## API
 
-+ 下载仓库
+本仓库采用APICloud平台提供的工具进行开发，进行页面编译渲染。
 
-```sh
-// 下载项目仓库
-$ git clone https://github.com/gitguanqi/markerapp.git
-// 或者
-$ git clone git@github.com:gitguanqi/markerapp.git
-```
+## 贡献
 
-+ 导入到你的APICloudStudio编辑器
+[@gitguanqi](https://github.com/gitguanqi)
 
-+ 真机同步查看
+## 协议
 
-## 关于作者
-
-前端开发一枚~
-
-感兴趣可以关注[@gitguanqi](https://github.com/gitguanqi)
-
-[个人情况说明](./about.md)
-
-## License
-
-[MIT License](http://opensource.org/licenses/MIT)
-
-Copyright (c) 2019 gitguanqi
+本项目遵循[MIT License](http://opensource.org/licenses/MIT)协议,Copyright By gitguanqi

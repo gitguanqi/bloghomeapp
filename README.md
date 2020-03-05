@@ -1,64 +1,75 @@
 # Marker App
 
-This is an Android software based on a note-based class developed by native H5 and APICloud.
+> This is a note taking tool based on native H5 and APICloud Android software.
 
-## Document Description
+[Chinese document](./zh-CN.md)
 
-+ [English document](README.md)
-+ [Chinese documentation](zh-CN.md)
+## table of Contents
 
-## Project Environment
++ Security
++ Background
++ Installation
++ Usage
++ API
++ Contribution
++ Agreement
 
-+ [APICloud Platform](https://www.apicloud.com)
-+ [APICloudStudio Editor](https://www.apicloud.com/devtools)
-+ [Blue Stack Simulator](https://www.bluestacks.cn/)
-+ Real machine WIFI test
+## Safety
 
-## Project Description
+This item
 
-The Marker App is a notebook app with the main function of publishing blogs, displaying blogs, and focusing on bloggers, commenting on likes and sharing articles.
++ Built using [APICloud](https://www.apicloud.com) platform,
++ Developed using [APICloudStudio](https://www.apicloud.com/devtools) editor,
++ Preview using [Blue Stack Simulator](https://www.bluestacks.cn/),
 
-## Project Features
+The theme is self-designed.
 
-The Marker App mainly has the following features:
+No program security issues have been found at this time. If you have any questions, please mention [Suggestions](https://github.com/gitguanqi/markerapp/issues/new).
 
-+ User registration
-+ User login
-+ User profile modification
-+ User Home View
-+ Publish, modify, and delete articles
-+ Comments, likes and sharing articles
-+ bloggers follow
+## Background
 
-## Project installation package
+This repository records the source code of a small project for me to learn hybrid APP development!
 
-This time just compiled the Android part, due to the tedious compilation of the certificate and the steps, so iOS did not compile, please understand.
-
-Here you can download the [installation package](./app/marker.apk)
-
-## Project Demo
-
-+ Download Warehouse
+## Installation
 
 ```sh
-// Download the project repository
-$ git clone https://github.com/gitguanqi/markerapp.git
-// or
-$ git clone git@github.com:gitguanqi/markerapp.git
+# clone
+git clone https://github.com/gitguanqi/markerapp.git markerapp
+cd markerapp
 ```
 
 + Import into your APICloudStudio editor
 
-+ Real machine sync view
++ Real-device synchronous viewing with blue stack simulator
 
-## About the author
+## Usage
 
-Front end development one ~
+After the editor is edited, sync the cloud, and then compile and package in the cloud.
 
-Interested to follow [@gitguanqi](https://github.com/gitguanqi)
+This app mainly has the following functions available:
 
-## License
++ User registration
++ User login
++ User profile modification
++ User homepage view
++ Post, modify and delete articles
++ Comment, like and share articles
++ Blogger attention
 
-[GPL V3.0 License](https://www.gnu.org/licenses)
+Project installation package:
 
-Copyright (c) 2019 gitguanqi
+This time only compiled the Android part, because the compilation certificate and steps are cumbersome, so iOS did not compile, please forgive me.
+
+You can download [installation package](./app/marker.apk) here
+
+## API
+
+This warehouse uses the tools provided by the APICloud platform for development and page rendering.
+
+## Contribution
+
+[@gitguanqi](https://github.com/gitguanqi)
+
+## Agreement
+
+This project follows the [MIT License](http://opensource.org/licenses/MIT) agreement, Copyright By gitguanqi
